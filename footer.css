@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f195;
+    color: #262626;
+    gap: 30px;
+    padding-bottom: 10px;
+    border-top: 1vh solid #01295f;
+    font-family: "Montserrat";
+    margin-top: 30px;
+}
+
+.nos-partenaires {
+    width: 95%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px
+}
+
+.footer-partenaires-0 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-partenaires-0 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-partenaires-0 img {
+    width: 200px;
+    display: flex;
+}
+
+.footer-stage-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-stage-1 a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-stage-1 img {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-stage-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-stage-2 a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-stage-3 {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #01269f31;
+    padding-top: 10px;
+}
+
+.footer-stage-3 a{
+    text-decoration: none;
+    color: #212121;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .footer-partenaires-0 img {
+        width: 120px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+        /* FOOTER */
+        footer {
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #E3E2DB;
+        color: #212121;
+        gap: 30px;
+        padding-bottom: 10px;
+        border-top: 1vh solid #212121;
+    }
+
+    .nos-partenires {
+        width: 95%;
+        text-align: center;
+    }
+
+    .footer-partenaires-0 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    .footer-partenaires-0 img {
+        width: 200px;
+        display: flex;
+    }
+
+    .footer-partenaires-0 a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-stage-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .footer-stage-1 img {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer-stage-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-stage-2 a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-stage-3 {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 1px solid #656565;
+        padding-top: 10px;
+        border-top: 1px solid #01269f32;
+    }
+
+    .footer-stage-3 a{
+        text-decoration: none;
+        color: #212121;
+    }
+}
